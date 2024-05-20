@@ -14,7 +14,7 @@ public class Persona {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private Integer cedula;
+    private int cedula;
 
     @Column(name="tipo_documento")
     private String tipoDocumento;
